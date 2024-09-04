@@ -20,6 +20,11 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+        Passport::tokensCan([
+            'view-user' => 'View user details',
+            // Other scopes...
+        ]);
         Passport::tokensExpireIn(now()->addDays(1));
         Passport::refreshTokensExpireIn(now()->addDays(30));
         //
