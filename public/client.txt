@@ -36,3 +36,12 @@ Admin
    > http://localhost:8080/callback
     Client ID ............................................................................................... 9ced7c3f-3b73-41fd-93d2-a755916160b0
   Client secret ....................................................................................... noluFYewmAWuBplPEakMOHhRFfbjt3zvS3kpoloJ  
+
+
+
+ > http://localhost:8090/callback
+
+   INFO  New client created successfully.
+
+  Client ID ............................................................................................... 9cedb0ed-573b-4134-80d8-3b22dc8cee39  
+  Client secret ....................................................................................... wTfk8DcVwzHh0PdV4QiTqaoJeYlvVNpkrRkuHJAU
